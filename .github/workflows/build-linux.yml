@@ -1,0 +1,27 @@
+name: Build Linux
+on: push
+
+jobs:
+  build:
+    name: Build code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up go
+        uses: actions/setup-go@v5
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get -y update
+          sudo apt-get -y install libogg-dev libopus-dev libopusfile-dev gcc
+
+      - name: Install go dependencies
+        run: |
+          go get ./...
+          go mod tidy
+
+      - name: Build
+        run: |
+          go build ./example/simple
