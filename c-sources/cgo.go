@@ -1,4 +1,4 @@
 package opus
 
-// #cgo LDFLAGS: -static -lopusfile -lopus -logg -lm
+// #cgo LDFLAGS: -Wl,-Bstatic -lopusfile -lopus -logg -Wl,-Bdynamic -lm
 import "C"
