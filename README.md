@@ -1,6 +1,6 @@
 # opus
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/pekim/opus)](https://pkg.go.dev/github.com/pekim/opus)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/kazzmir/opus)](https://pkg.go.dev/github.com/kazzmir/opus)
 
 This Go package provides decoding of streams
 that have been encoded with the

@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/pekim/opus"
+	"github.com/kazzmir/opus"
 )
 
 func main() {

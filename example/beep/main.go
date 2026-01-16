@@ -12,7 +12,7 @@ import (
 	"github.com/gopxl/beep"
 	"github.com/gopxl/beep/effects"
 	"github.com/gopxl/beep/speaker"
-	"github.com/pekim/opus"
+	"github.com/kazzmir/opus"
 )
 
 func drawTextLine(screen tcell.Screen, x, y int, s string, style tcell.Style) {

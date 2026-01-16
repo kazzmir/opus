@@ -1,4 +1,4 @@
-module github.com/pekim/opus
+module github.com/kazzmir/opus
 
 go 1.22.0
 

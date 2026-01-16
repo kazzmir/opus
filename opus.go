@@ -4,7 +4,7 @@ package opus
 import "C"
 
 import (
-	_ "github.com/pekim/opus/c-sources"
+	_ "github.com/kazzmir/opus/c-sources"
 )
 
 /*

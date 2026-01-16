@@ -5,7 +5,7 @@ import (
 	"io"
 
 	"github.com/gopxl/beep"
-	"github.com/pekim/opus"
+	"github.com/kazzmir/opus"
 	"github.com/pkg/errors"
 )
 
