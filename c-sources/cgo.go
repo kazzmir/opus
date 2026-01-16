@@ -11,6 +11,7 @@ package opus
 // #cgo CFLAGS: -I${SRCDIR}/../xiph.org/opusfile/include
 //
 // #cgo CFLAGS: -I${SRCDIR}/../xiph.org/ogg/src
+// #cgo CFLAGS: -I${SRCDIR}/../xiph.org/ogg/include
 //
 // #cgo LDFLAGS: -lm
 import "C"
